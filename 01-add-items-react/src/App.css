@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: 64px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+form {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label {
+  font-size: .8em;
+}
+
+input {
+  background-color: #222;
+  border-radius: 4px;
+  cursor: default;
+  border: 1px solid #555;
+  display: block;
+  width: 50%;
+  margin-bottom: 16px;
+}
